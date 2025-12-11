@@ -39,7 +39,6 @@ async function loadAnalytics() {
   });
 }
 
-// logout
 document.getElementById("logoutBtn").onclick = async function() {
   await fetch("http://localhost:3000/api/auth/logout", {
     method: "POST",
